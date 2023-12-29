@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "firework_utils.h": "c",
+        "map_utils.h": "c"
+    }
+}
