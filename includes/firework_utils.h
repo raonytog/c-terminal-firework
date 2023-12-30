@@ -5,6 +5,22 @@ typedef struct tFirework tFirework;
 
 tFirework * CreateFirework ();
 
-void IsValidHexColor (char * hexColor);
+void SetTerminalColor (tFirework * firework);
+
+void SetDefaultColor ();
+
+int GetFireworkExplosionDelay (tFirework * firework);
+
+int GetFireworkSize (tFirework * firework);
+
+int GetFireworkPositionX (tFirework * firework);
+
+int GetFireworkPositionY (tFirework * firework);
+
+void UpdateFireworkPosition (tFirework * firework,  int x, int y);
+
+char * GetFireWorkHexColor (tFirework * firework);
+
+void DestroyFirework (tFirework * firework);
 
 #endif // !FIREWORK_UTILS_H_
